@@ -1,5 +1,7 @@
 # log-metrics
 
+[![CircleCI](https://circleci.com/gh/LendingClub/log-metrics.svg?style=svg)](https://circleci.com/gh/LendingClub/log-metrics)
+
 Log-metrcs is a simple java library that generates a set of scalar metrics from the application log system.
 
 It works by:
