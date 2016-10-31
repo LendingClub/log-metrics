@@ -68,7 +68,7 @@ subprojects {
 			
 	        mavenDeployer {
 	            //name = 'macgyver-bintray'
-				if (!project.hasProperty('BINRAY_USER')) {
+				if (!project.hasProperty('BINTRAY_USER')) {
 					project.ext['BINTRAY_USER']=System.getenv("BINTRAY_USER")
 				}
 				if (!project.hasProperty('BINTRAY_KEY')) {
